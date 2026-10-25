@@ -47,6 +47,8 @@ That's it. Friends open the link and type a name.
 
 **For modders:** [Install without the exe](docs/manual-install.md) · [Web API](docs/api.md) · [Mod API](docs/mod-api.md) · [Building](docs/building.md)
 
+> **Looking for the source code?** It goes public with Beta 1.0. Until then, this page has the guide and the downloads.
+
 ---
 
 This is an alpha. Found a bug? [Report it here](https://github.com/smellofindustry/T6-ToyBox/issues) with the map and what happened.

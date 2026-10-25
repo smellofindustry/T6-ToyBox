@@ -2,7 +2,7 @@
 
 # Building from source
 
-The source code isn't public yet. The [releases](https://github.com/smellofindustry/T6-ToyBox/releases) have everything you need to play, and this page is here for later.
+> **The source code goes public with Beta 1.0.** Until then, the [releases](https://github.com/smellofindustry/T6-ToyBox/releases) have everything you need to play. This page is here for when the code is out.
 
 ## Steps
 

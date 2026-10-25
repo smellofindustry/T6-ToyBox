@@ -4,24 +4,37 @@
 
 You've probably seen mods where chat or typed commands mess with your game. Toy Box works differently:
 
-- **Just send a link.** Friends tap buttons on a real control page. No Twitch, no stream, no account, no port forwarding, and they don't need the game.
-- **It plays like the real game.** Power-ups drop with the announcer, perks come with the burp, extra zombies come out of the round's own spawners. It's all built on BO2's own scripts.
-- **Every map.** Survival and Classic, with each map's own enemies: Brutus, Panzers, Jumping Jacks and ghosts.
-- **You stay in charge.** Pause friends, hit Panic to undo the chaos, kick anyone, or switch off what you don't want them using.
-- **Playing alone?** The game can play a friend for you, fair or troll.
+- **Just a link.** Friends tap buttons on their phone. No Twitch, no account, no port forwarding, and they don't need the game.
+- **Feels like the real game.** Power-ups come with the announcer, perks with the burp. It's all built on BO2's own scripts.
+- **Every map.** Survival and Classic, with each map's own bosses and specials.
+- **You're in charge.** Pause friends, hit Panic, kick anyone, or switch off what you don't want.
+- **Playing alone?** The game can play a friend for you.
+
+<table>
+  <tr>
+    <td width="33%"><img src="docs/images/quick-buttons.png" width="100%" alt="Quick buttons: Max Ammo, Random Perk, Every Perk, Pack-a-Punch, God Mode, Revive"></td>
+    <td width="33%"><img src="docs/images/match-header.png" width="100%" alt="The match on the friend page: map, round, players with points, and who's here"></td>
+    <td width="33%"><img src="docs/images/host-switches.png" width="100%" alt="Host controls: a switch for each group of buttons friends can use"></td>
+  </tr>
+  <tr>
+    <td align="center">Friends tap a button</td>
+    <td align="center">Everyone sees the match</td>
+    <td align="center">You pick what they can use</td>
+  </tr>
+</table>
 
 ## Get started
+
+You need Windows 10 or 11 and BO2 Zombies on [Plutonium](https://plutonium.pw).
 
 1. **[Download ToyBox.exe](https://github.com/smellofindustry/T6-ToyBox/releases/latest/download/ToyBox.exe)**, open it and click **Install**.
 2. Start BO2 Zombies with Plutonium. Click **Mods**, pick **Toy Box** and start any map.
 3. Paste the link to your friends. It's already copied.
 
-That's it. Friends open the link and type a name. They don't need the game.
+That's it. Friends open the link and type a name.
 
 > **"Windows protected your PC"?** Click **More info**, then **Run anyway**.
 > You see it because the alpha isn't code-signed yet.
-
-<p align="center"><img src="docs/images/friend-phone.png" width="300" alt="The friend page on a phone: the match, who's on, and the Quick buttons"></p>
 
 ## Need more?
 
@@ -35,8 +48,6 @@ That's it. Friends open the link and type a name. They don't need the game.
 **For modders:** [Install without the exe](docs/manual-install.md) · [Web API](docs/api.md) · [Mod API](docs/mod-api.md) · [Building](docs/building.md)
 
 ---
-
-Needs Windows 10 or 11 and [Plutonium](https://plutonium.pw) with BO2 Zombies. Works on every zombies map.
 
 This is an alpha. Found a bug? [Report it here](https://github.com/smellofindustry/T6-ToyBox/issues) with the map and what happened.
 

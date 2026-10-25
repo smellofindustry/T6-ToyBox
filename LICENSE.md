@@ -1,7 +1,7 @@
 # License
 
 **Toy Box**, a Black Ops II Zombies mod by **smellofindustry**, built with other people's work
-(see [Credits](README.md#credits)).
+(see [Credits](docs/credits.md)).
 
 ## What this license covers
 

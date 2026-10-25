@@ -9,7 +9,7 @@ Friends open your link, type a name, and get buttons.
 ## The buttons
 
 - **Quick:** Max Ammo, perks, Pack-a-Punch, god mode, revive, kill everything.
-- **Power-ups, perks and weapons:** from this map and every other one.
+- **Power-ups, perks and weapons:** everything this map has.
 - **Spawn enemies:** zombies, hellhounds, Brutus, Panzers, Jumping Jacks, Buried's ghosts.
 - **The map:** power on, open every door, move the box, fire sales.
 - **Tricks:** sprinters, crawlers, freeze, slow motion, low gravity.

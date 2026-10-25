@@ -1,9 +1,14 @@
 # Toy Box
 
-**Your friends control your BO2 Zombies match from their phones.**
+**Let your friends mess with your BO2 Zombies match, live, from their phones.**
 
-They get buttons for Max Ammo, perks, Ray Guns, hordes, bosses and a lot more.
-Everything they do pops up on your screen with their name on it.
+You've probably seen mods where chat or typed commands mess with your game. Toy Box works differently:
+
+- **Just send a link.** Friends tap buttons on a real control page. No Twitch, no stream, no account, no port forwarding, and they don't need the game.
+- **It plays like the real game.** Power-ups drop with the announcer, perks come with the burp, extra zombies come out of the round's own spawners. It's all built on BO2's own scripts.
+- **Every map.** Survival and Classic, with each map's own enemies: Brutus, Panzers, Jumping Jacks and ghosts.
+- **You stay in charge.** Pause friends, hit Panic to undo the chaos, kick anyone, or switch off what you don't want them using.
+- **Playing alone?** The game can play a friend for you, fair or troll.
 
 ## Get started
 

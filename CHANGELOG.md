@@ -4,11 +4,11 @@
 
 The first public build.
 
-- **Friend link:** friends open a link, pick a name and get buttons for power-ups, perks, weapons, enemies (each map's bosses too), points, rounds, the map (power, doors, the box, fire sales), zombie and player tricks, scares, bounties, scheduled commands and any console command.
-- **Simulate a friend:** for playing alone, someone with a random gamertag takes the controller and plays fair (pushes back when it's quiet, helps when you're struggling) or trolls you, at chill, normal or wild.
-- **ToyBox.exe:** one-click install, the friend link from a tray icon, and Host controls (who's on, kick and ban, what friends can use, cooldowns, spawn limits, events, a simulated friend, panic).
-- **Match stats** for contests, as CSV or JSON, with the newest 100 matches kept.
+- **Friend link:** friends open a link, pick a name and get buttons for power-ups, perks, weapons, enemies, points, rounds, the map, tricks, scares and bounties.
+- **Playing alone:** the game plays a friend for you, fair or troll, at chill, normal or wild.
+- **ToyBox.exe:** one-click install, the teddy bear by the clock with the friend link, and Host controls.
+- **Match stats** for contests, as CSV or JSON.
 - **Random events** every few rounds.
-- **Zombie eye colors:** the map's own, orange, red, blue or purple, and white for zombies friends send. Every color is a copy of the game's own eye effect, recolored.
+- **Zombie eye colors**, and white eyes on zombies friends send.
 - **Console commands** for everything (`set tb help`), and an API for other mods.
-- Every zombies map, in Survival and Classic.
+- Every zombies map, Survival and Classic.

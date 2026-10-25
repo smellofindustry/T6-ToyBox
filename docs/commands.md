@@ -58,7 +58,7 @@ Type them as `set tb <command>`. Friends send the same commands from their page.
 
 | Command | What it does |
 |---|---|
-| `spawn <enemy> [count]` | `zombie`, `dog`, `brutus` (Mob of the Dead), `panzer` (Origins), `leaper` (Die Rise), `ghost` (Buried Classic) |
+| `spawn <enemy> [count]` | `zombie`, `dog` (TranZit), `brutus` (Mob of the Dead), `panzer` (Origins), `leaper` (Die Rise), `ghost` (Buried Classic) |
 | `killall` | Kills every enemy, bosses too |
 | `round <number>` | Ends this round. That round comes next |
 

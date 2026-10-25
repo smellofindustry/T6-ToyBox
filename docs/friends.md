@@ -10,7 +10,7 @@ Friends open your link, type a name, and get buttons.
 
 - **Quick:** Max Ammo, perks, Pack-a-Punch, god mode, revive, kill everything.
 - **Power-ups, perks and weapons:** everything this map has.
-- **Spawn enemies:** zombies, hellhounds, Brutus, Panzers, Jumping Jacks, Buried's ghosts.
+- **Spawn enemies:** zombies, plus each map's own: hellhounds (TranZit), Brutus (Mob of the Dead), Panzers (Origins), Jumping Jacks (Die Rise), ghosts (Buried).
 - **The map:** power on, open every door, move the box, fire sales.
 - **Tricks:** sprinters, crawlers, freeze, slow motion, low gravity.
 - **Scares:** fake power-ups, the announcer, a screen shake.

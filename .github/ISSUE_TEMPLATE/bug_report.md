@@ -15,7 +15,7 @@ labels: bug
 **Where**
 - Map and mode (for example Mob of the Dead, Classic):
 - Solo or co-op, and how many players:
-- Toy Box version (Windows Settings > Apps > Toy Box, or the release you downloaded):
+- Toy Box version (the first line of the teddy bear menu):
 - Running on top of another mod? Which one:
 
 **Log**

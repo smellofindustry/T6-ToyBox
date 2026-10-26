@@ -27,6 +27,10 @@ At the bottom of their page:
 - Zombies your friends send have **white eyes**.
 - Skipping rounds and killing everything are **off** for friends. Turn them on in [Host controls](host-controls.md).
 - If your game is paused, their buttons wait and run when you're back.
+- If you set [limits](host-controls.md#limits), their buttons show what's left, and wait once it's used up:
+
+  <img src="images/friend-limited.png" width="380" alt="Max Ammo waiting for round 8, Every Perk with 2 left">
+
 - The link changes each time you open the game. Send the new one.
 
 > **Anyone with the link can control your match.**

@@ -29,8 +29,8 @@ Parts of this project belong to other people, and this license does not change t
   same folder.
 * **The Options menu** (`ui/t6/options.lua`) is built on BO2 Reimagined's decompile of the stock
   menu, which stays under its authors' terms.
-* **Call of Duty: Black Ops II** game assets, which belong to Activision and Treyarch: the eye
-  effects copied into `mod.ff`, the teddy bear the icon is rendered from, the perk icons,
+* **Call of Duty: Black Ops II** game assets, which belong to Activision and Treyarch: the effect
+  materials the eye colors draw with, the teddy bear the icon is rendered from, the perk icons,
   power-ups and weapon pictures in `remote/art`, and the game's sounds and scripts the mod calls.
   Toy Box needs a legitimate copy of the game and is not affiliated with or endorsed by
   Activision, Treyarch or Plutonium.

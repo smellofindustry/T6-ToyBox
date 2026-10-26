@@ -12,11 +12,24 @@ A page opens in your browser. It only works on your PC. Friends can't reach it.
 
 - **Who's on:** everyone on the friend page. Kick or ban anyone.
 - **What friends can use:** switch whole groups off, like spawning, weapons or god mode.
-- **Limits:** a wait between each friend's commands, and the most zombies one spawn can send.
+- **Limits:** a cooldown or a number of uses on one button, a group, or every command. For example "Max Ammo: once every 3 rounds" or "Kill All: 1 use per match".
+- **Wait and spawn size:** a wait between each friend's commands, and the most zombies one spawn can send.
 - **Events and a simulated friend:** switch them on or off.
 - **Live now:** running bounties, effects and scheduled commands. Each has a cancel button.
 - **A command box:** type any command. It runs as you.
 - **Match history:** every match, with what each friend did, as downloads.
+
+## Limits
+
+Under **What friends can use**, click **Add a limit**. Pick a button, a group or every command, then set any of these:
+
+- **Once every N seconds**
+- **Once every N rounds**
+- **N uses per match**
+
+Each limit is shared by all friends, or counted for each friend. Uses start over each match.
+
+![Adding a limit in Host controls](images/host-limits.png)
 
 ## Good to know
 
@@ -44,6 +57,7 @@ The file is `%LOCALAPPDATA%\Toy Box\settings.json`, made on first run.
 | `cooldown_seconds` | 0 | Wait between each friend's commands. 0 is off |
 | `allow_get_commands` | `false` | `true` lets a plain link send a command (Stream Deck, bots). Chat apps preview links, so a pasted command link would run itself |
 | `max_spawn` | 0 | Most enemies one `spawn` can ask for. 0 is no limit |
+| `limits` | none | The limits from Host controls. Each has `what`, `each` (each friend, not shared), `seconds`, `rounds` and `uses` |
 | `blocked` | `compat`, `remote`, `panic`, `bot`, `simulate`, `round`, `killall` | Commands friends can't use. A `later` command is checked for what it schedules too |
 | `host_key` | random | The key for host controls. Never part of a friend link |
 | `friends_off` | `false` | Pause friends. Joining still works |

@@ -33,6 +33,7 @@ Every call needs the key from the friend link: the `X-Toybox-Key` header, or `?k
 **Commands**
 - Without a token, give a `"name"` nobody on the page is using. With neither, `401`.
 - `429` while 8 of that friend's commands, or 50 in all, are waiting for the game.
+- `429` when one of the host's limits says not yet. The error says when, like "Max Ammo: once every 3 rounds. Try again in round 8."
 
 **State**
 - Comes with an `ETag`. Send it back as `If-None-Match` to get a `304` while nothing has changed.
@@ -42,6 +43,10 @@ Every call needs the key from the friend link: the `X-Toybox-Key` header, or `?k
   - `scheduled`: `{id,when,command,by}`. `when` is seconds, or `r<round>`.
   - `events`: `{on,every,next_round,last}`.
   - `solo`: `{mode,level}`. Mode 0 off, 1 fair, 2 troll. Level 1 chill, 2 normal, 3 wild.
+- `limits`: the host's limits, as they stand for you. `{label,text,each,all,match,seconds,rounds,uses,wait,next_round,left,use_times,use_rounds}`.
+  - `match`: how the commands it covers start, like `ammo` or `powerup full_ammo`. `all`: it covers every command.
+  - `wait`: seconds until it's ready. `next_round`: the round it's back, or 0. `left`: uses left this match, or `-1` with no cap.
+  - `use_times` and `use_rounds`: when each use counted so far runs, in seconds from now (above 0 means it's scheduled for later) and as a round. A new use has to be a full cooldown away from all of them.
 
 **Names**
 - A name is taken while its page is open.

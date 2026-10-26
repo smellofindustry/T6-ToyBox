@@ -7,7 +7,7 @@ You've probably seen mods where chat or typed commands mess with your game. Toy 
 - **Just a link.** Friends tap buttons on their phone. No Twitch, no account, no port forwarding, and they don't need the game.
 - **Feels like the real game.** Power-ups come with the announcer, perks with the burp. It's all built on BO2's own scripts.
 - **Every map.** Survival and Classic, with each map's own bosses and specials.
-- **You're in charge.** Pause friends, hit Panic, kick anyone, or switch off what you don't want.
+- **You're in charge.** Set cooldowns, pause friends, hit Panic, kick anyone, or switch off what you don't want.
 - **Playing alone?** The game can play a friend for you.
 
 <table>
@@ -45,7 +45,7 @@ That's it. Friends open the link and type a name.
 
 **Extras:** [Host controls](docs/host-controls.md) · [Match stats and contests](docs/match-stats.md) · [Settings tab](docs/settings-tab.md) · [Console commands](docs/commands.md) · [Privacy](docs/privacy.md)
 
-**For modders:** [Install without the exe](docs/manual-install.md) · [Web API](docs/api.md) · [Mod API](docs/mod-api.md) · [Building](docs/building.md)
+**For modders:** [Web API](docs/api.md) · [Mod API](docs/mod-api.md)
 
 > **Looking for the source code?** It goes public with Beta 1.0. Until then, this page has the guide and the downloads.
 

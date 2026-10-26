@@ -9,7 +9,7 @@ In a Toy Box match or the main menu: **Options > Settings > TOY BOX**.
 | **Friend controller** | On or off. When off, friends' buttons do nothing |
 | **Show link on screen** | Shows the friend link again |
 | **Copy link** | Copies it again |
-| **Zombie eyes** | The map's own, orange, red, blue or purple, for everyone |
+| **Zombie eyes** | The map's own or one of 13 colors, for everyone |
 | **Random events** | Off, or a random event every 1, 2, 3 or 5 rounds |
 | **Simulate a friend** | See [Playing alone](play-alone.md) |
 | **Intensity** | How busy the simulated friend is |

@@ -37,7 +37,7 @@ Example: `set tb perk all @all` gives everyone every perk.
 
 ## All commands
 
-Type them as `set tb <command>`. Friends send the same commands from their page.
+Type them as `set tb <command>`. Friends send the same commands from their page. Limits and switches in [Host controls](host-controls.md) only hold friends back, never you.
 
 ### Gear
 
@@ -109,7 +109,7 @@ Type them as `set tb <command>`. Friends send the same commands from their page.
 |---|---|
 | `help [command]` | Lists the commands, or shows one command's usage |
 | `weapons`, `perks`, `powerups`, `enemies` | Lists what this map has |
-| `eyes [default\|orange\|red\|blue\|purple]` | Zombie eye color for everyone. Needs the zm_toybox mod |
+| `eyes [default\|<color>\|<hex color>]` | Zombie eye color for everyone: yellow, orange, red, crimson, pink, magenta, purple, deep blue, blue, pale blue, teal, green or lime. A hex color like `ff66cc` gets the closest one. Needs the zm_toybox mod |
 | `compat [on\|off]` | Compatibility mode ([more](mod-api.md)) |
 | `remote [on\|off\|link\|copy]` | The friend link: status, on, off, show it, copy it |
 | `panic` | Undoes the chaos. A simulated friend backs off for 90 seconds |

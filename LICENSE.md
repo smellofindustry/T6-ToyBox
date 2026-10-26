@@ -27,8 +27,6 @@ Parts of this project belong to other people, and this license does not change t
 * **The fonts** in `remote/fonts`: Barlow, Barlow Condensed and Black Ops One under the SIL Open
   Font License 1.1, Permanent Marker under the Apache License 2.0. Their license files are in the
   same folder.
-* **The Options menu** (`ui/t6/options.lua`) is built on BO2 Reimagined's decompile of the stock
-  menu, which stays under its authors' terms.
 * **Call of Duty: Black Ops II** game assets, which belong to Activision and Treyarch: the effect
   materials the eye colors draw with, the teddy bear the icon is rendered from, the perk icons,
   power-ups and weapon pictures in `remote/art`, and the game's sounds and scripts the mod calls.

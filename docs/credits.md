@@ -3,7 +3,6 @@
 # Credits
 
 - [Plutonium](https://plutonium.pw).
-- The Options menu is built on BO2 Reimagined's decompile of the stock menu.
 - [cloudflared](https://github.com/cloudflare/cloudflared) by Cloudflare (Apache 2.0) makes the friend link reachable from anywhere. Its license ships with ToyBox.exe.
 - Fonts:
   - [Barlow](https://github.com/jpt/barlow) and Barlow Condensed by Jeremy Tribby (SIL Open Font License 1.1)

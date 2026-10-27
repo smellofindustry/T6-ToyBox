@@ -6,7 +6,7 @@ No friends around? The game can play one for you.
 
 1. In a Toy Box match, press **Esc**.
 2. Go to **Options > Settings > TOY BOX**.
-3. Set **Simulate a friend** to **FAIR** or **TROLL**.
+3. Set **Fake-A-Friend** to **FAIR** or **TROLL**.
 4. Set **Intensity** to **CHILL**, **NORMAL** or **WILD**.
 5. Go back to the game.
 

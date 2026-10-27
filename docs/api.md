@@ -43,6 +43,8 @@ Every call needs the key from the friend link: the `X-Toybox-Key` header, or `?k
   - `scheduled`: `{id,when,command,by}`. `when` is seconds, or `r<round>`.
   - `events`: `{on,every,next_round,last}`.
   - `solo`: `{mode,level}`. Mode 0 off, 1 fair, 2 troll. Level 1 chill, 2 normal, 3 wild.
+  - `moments`: things that happen once, kept about 10 seconds so every page sees them. `{id,kind:"horde",player,kills,heads}` is a player getting more than 7 kills within 5 seconds (the game's own kill-streak rule). `{id,kind:"bot",name,command}` is a move by the simulated friend.
+- `players` have `char` when the game says which character they are (its `characterindex`).
 - `limits`: the host's limits, as they stand for you. `{label,text,each,all,match,seconds,rounds,uses,wait,next_round,left,use_times,use_rounds}`.
   - `match`: how the commands it covers start, like `ammo` or `powerup full_ammo`. `all`: it covers every command.
   - `wait`: seconds until it's ready. `next_round`: the round it's back, or 0. `left`: uses left this match, or `-1` with no cap.

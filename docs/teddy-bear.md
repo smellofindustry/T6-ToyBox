@@ -14,7 +14,6 @@ Don't see it? Click the **^** arrow next to the clock.
 | **Open friend link** | Opens it, so you see what they see |
 | **Show link in game** | Puts the link back on your screen |
 | **Pause friends** | Their buttons stop until you switch them back on |
-| **Panic** | Undoes the chaos: kills what friends sent, cancels what's scheduled |
 | **New link** | Makes a new link. The old one stops working right away |
 | **Host controls** | Kick, ban, limits, what friends can use ([more](host-controls.md)) |
 | **Start with Windows** | On by default. Click to switch it off |

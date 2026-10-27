@@ -7,7 +7,7 @@ You've probably seen mods where chat or typed commands mess with your game. Toy 
 - **Just a link.** Friends tap buttons on their phone. No Twitch, no account, no port forwarding, and they don't need the game.
 - **Feels like the real game.** Power-ups come with the announcer, perks with the burp. It's all built on BO2's own scripts.
 - **Every map.** Survival and Classic, with each map's own bosses and specials.
-- **You're in charge.** Set cooldowns, pause friends, hit Panic, kick anyone, or switch off what you don't want.
+- **You're in charge.** Set cooldowns, pause friends, kick anyone, or switch off what you don't want.
 - **Playing alone?** The game can play a friend for you.
 
 <table>
@@ -39,7 +39,7 @@ That's it. Friends open the link and type a name.
 ## Need more?
 
 - **[What your friends can do](docs/friends.md)**: every button on their page
-- **[The teddy bear menu](docs/teddy-bear.md)**: pause friends, panic, new link
+- **[The teddy bear menu](docs/teddy-bear.md)**: pause friends, new link
 - **[Playing alone](docs/play-alone.md)**: let the game play a friend for you
 - **[Help and fixes](docs/help.md)**: when something's not working, updating, uninstalling
 

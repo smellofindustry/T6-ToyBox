@@ -38,7 +38,7 @@ The dvar `tb_compat` picks one. Set it in the settings tab, with `seta tb_compat
 
 - `register_command` and `register_enemy` also take your mod's name as an optional last argument.
 - Every change Toy Box makes sends `level notify( "toybox_event", event, player, detail )`. Examples: `weapon_given`, `perk_given`, `enemy_spawned`, `round_set`.
-- Registered items only run in compatibility mode. A mod can't replace a built-in command.
+- Registered items only run in mod compatibility mode. A mod can't replace a built-in command.
 
 ## Calling it
 

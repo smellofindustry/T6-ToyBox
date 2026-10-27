@@ -93,6 +93,7 @@ Type them as `set tb <command>`. Friends send the same commands from their page.
 | `scare shake` | A screen shake |
 | `scare flash` | The nuke's flash |
 | `scare fake [player]` | A power-up that turns out to be fake |
+| `roulette [nice\|mean\|any]` | A wheel spins on everyone's screen and runs what it lands on: Max Ammo, a perk, the map's boss, Take Gun and more. `nice` only good ones, `mean` only bad ones |
 
 ### Over time
 
@@ -100,7 +101,7 @@ Type them as `set tb <command>`. Friends send the same commands from their page.
 |---|---|
 | `later <seconds\|nextround> <command>` | Runs a command later. `later list`, `later cancel <id>` |
 | `events on\|off\|every <1\|2\|3\|5>\|now` | A random event every few rounds |
-| `bounty <kills\|headshots\|knife\|explosive> [goal] [seconds] [reward]` | A timed challenge for points (1000 unless you set a reward). `bounty list`, `bounty cancel <id>` |
+| `bounty <kills\|headshots\|knife\|explosive> [goal] [seconds] [reward] [win <prize>] [lose <penalty>]` | A timed challenge for points (1000 unless you set a reward). Prizes: `ammo`, `perk`, `pap`, `insta`, `infammo`, `spin`. Penalties: `takegun`, `takeperks`, `sprint`, `flash`, `boss`, `spin`. `bounty list`, `bounty cancel <id>` |
 | `simulate off\|fair\|troll [chill\|normal\|wild]\|now` | A [simulated friend](play-alone.md). `bot` still works too |
 
 ### Toy Box itself
@@ -110,7 +111,7 @@ Type them as `set tb <command>`. Friends send the same commands from their page.
 | `help [command]` | Lists the commands, or shows one command's usage |
 | `weapons`, `perks`, `powerups`, `enemies` | Lists what this map has |
 | `eyes [default\|<color>\|<hex color>]` | Zombie eye color for everyone: yellow, orange, red, crimson, pink, magenta, purple, deep blue, blue, pale blue, teal, green or lime. A hex color like `ff66cc` gets the closest one. Needs the zm_toybox mod |
-| `compat [on\|off]` | Compatibility mode ([more](mod-api.md)) |
+| `compat [on\|off]` | Mod compatibility mode ([more](mod-api.md)) |
 | `remote [on\|off\|link\|copy]` | The friend link: status, on, off, show it, copy it |
 | `panic` | Undoes the chaos. A simulated friend backs off for 90 seconds |
 
@@ -131,5 +132,6 @@ Every command follows the game's own scripts. No made-up numbers.
 - `spawn dog` allows 9 hellhounds alive at once, like mixed rounds. The rest wait for room.
 - `round` and `killall` work like the developer menu's round skip. Special rounds (hellhounds, Jumping Jacks, Brutus, Panzers) stay on schedule.
 - While a player's gear is put away (a Mob of the Dead ghost, a Who's Who clone), gun and perk commands wait until they're back.
+- `roulette` only lands on what can happen right now, on this map. Gear and perks go to the player it's for; the rest hits everyone. One spin at a time, the rest wait their turn.
 - `sprint` is the game's own sprint. `crawl` is the leg gib. `freeze` holds zombies the way they're held while rising. `slowmo` is the killcam's slow motion. `onehit` is the one-player Insta-Kill. `ignore` is how Who's Who hides you.
 - Numbers Toy Box picks itself (event lengths, bounty limits, low gravity at 40%, simulated friend timing) are marked as Toy Box's own in the scripts.
